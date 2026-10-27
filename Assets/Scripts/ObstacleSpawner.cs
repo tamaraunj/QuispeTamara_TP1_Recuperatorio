@@ -3,7 +3,7 @@ using UnityEngine;
 public class ObstacleSpawner : MonoBehaviour
 {
     [Header("Spawner Settings")]
-    [SerializeField] private GameObject spawnObject;
+    [SerializeField] private GameObject obstaclePrefab;
     [SerializeField] private float spawnInterval = 3f;
 
     void Start()
@@ -13,6 +13,6 @@ public class ObstacleSpawner : MonoBehaviour
 
     private void SpawnObstacle()
     {
-        Instantiate(spawnObject, transform.position, transform.rotation);
+        Instantiate(obstaclePrefab, transform.position, transform.rotation);
     }
 }

@@ -5,7 +5,7 @@ public class CameraFollow : MonoBehaviour
     [Header("Target")]
     [SerializeField] private GameObject target_p;
     [Header("Camera Settings")]
-    [SerializeField] private Vector3 offset = new Vector3(0, 6f, -8f);
+    [SerializeField] private Vector3 offset = new Vector3(0, 6f, -6f);
 
     void LateUpdate()
     {
