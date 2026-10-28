@@ -5,9 +5,9 @@ public class MovingPlatform : MonoBehaviour
 {
 
     [Header("Movement Settings")]
-    [SerializeField] private float speed = 2f;
+    [SerializeField] private float speed = 2.5f;
     [SerializeField] private float moveDistance = 10f;
-    [SerializeField] private float changeDirectionTime = 2f;
+    [SerializeField] private float changeDirectionTime = 1f;
     private bool movingForward = true; //la plataforma va desde el inicio hasta el destino
     private Vector3 startPosition;
     private Vector3 targetPosition;

@@ -25,7 +25,7 @@ public class GoalZone : MonoBehaviour
 
             hasWon = true;
 
-            Debug.Log("<color=green>¡VICTORIA! Entregaste el objeto correctamente.</color>");
+            Debug.Log("<color=green>¡VICTORIA! </color>");
 
             Renderer zoneRenderer = GetComponent<Renderer>();
 

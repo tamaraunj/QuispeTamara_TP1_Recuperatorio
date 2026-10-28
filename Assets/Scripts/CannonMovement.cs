@@ -3,9 +3,8 @@ using UnityEngine;
 public class CannonMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    [SerializeField] private float speed = 2f;
+    [SerializeField] private float speed = 3f;
     [SerializeField] private float distance = 5f;
-
     private float startZ;
     private bool movingForward = true;
 
@@ -18,7 +17,7 @@ public class CannonMovement : MonoBehaviour
     {
         float direction = movingForward ? 1f : -1f;
 
-        transform.Translate( Vector3.forward * direction * speed * Time.deltaTime, Space.World);
+        transform.Translate(Vector3.forward * direction * speed * Time.deltaTime, Space.World);
 
         if (movingForward && transform.position.z >= startZ + distance)
         {
