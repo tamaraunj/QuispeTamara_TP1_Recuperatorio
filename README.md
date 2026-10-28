@@ -6,23 +6,21 @@
 
 ## 📖 Historia
 
-Un agente que debe completar una misión de entrenamiento a través de un recorrido lleno de plataformas, obstáculos y zonas peligrosas.
+Un agente debe completar una misión de entrenamiento a través de un recorrido lleno de plataformas, obstáculos y zonas peligrosas.
 
 Para llegar al destino, tendrás que demostrar tu habilidad para saltar entre plataformas, recuperar un objeto importante y entregarlo en la zona indicada. Durante el recorrido, podrás activar un Power-Up que aumentará temporalmente tu velocidad y utilizar checkpoints para retomar el camino si caes al vacío.
 
-Tu objetivo es superar cada desafío y completar la misión. Cada salto cuenta, y cada checkpoint te acerca un poco más a la victoria.
-
 ## 👤 Datos del alumno
 
-- **Nombre y apellido:** [Tamara Melisa Quispe]
-- **LU:** [679]
-- **Materia:** [Programación de Videojuegos 1]
-- **Trabajo práctico:** [Recuperatorio TP1]
+- **Nombre y apellido:** Tamara Melisa Quispe
+- **LU:** 679
+- **Materia:** Programación de Videojuegos 1
+- **Trabajo práctico:** Recuperatorio TP1
 
 ## 🛠️ Información técnica
 
 - **Motor de desarrollo:** Unity
-- **Versión de Unity:** [6000.3.26f1]
+- **Versión de Unity:** 6000.3.26f1
 - **Lenguaje de programación:** C#
 - **Tipo de juego:** Plataformas 3D / Parkour
 
