@@ -15,6 +15,7 @@ Tu objetivo es superar cada desafío y completar la misión. Cada salto cuenta, 
 ## 👤 Datos del alumno
 
 - **Nombre y apellido:** [Tamara Melisa Quispe]
+- **LU:** [679]
 - **Materia:** [Programación de Videojuegos 1]
 - **Trabajo práctico:** [Recuperatorio TP1]
 
@@ -81,8 +82,9 @@ La cámara sigue al jugador
 
 ## 🖼️ Captura de pantalla del nivel
 
-
-![Captura de pantalla de Shadow Run: Parkour Mission](Proyecto/nivel.png)
+![Jugador con el objeto](Proyecto/1.png)
+![Jugador en la zona de meta con el objeto](Proyecto/2.png)
+![Victoria al depositar en objeto en la zona](Proyecto/3.png)
 
 ## ▶️ Cómo ejecutar el proyecto
 
@@ -92,7 +94,3 @@ La cámara sigue al jugador
 4. Abrir el proyecto con la versión de Unity correspondiente.
 5. Abrir la escena principal.
 6. Presionar **Play** para comenzar.
-
-## 📌 Estado del proyecto
-
-Proyecto académico desarrollado en Unity para practicar programación de videojuegos 3D, físicas, colisiones, interacción con objetos, corrutinas y sistemas de checkpoint y respawn.

@@ -1453,37 +1453,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
   obstaclePrefab: {fileID: 5179186847712418902, guid: d69600a15e69f7a438764a78979a1a54, type: 3}
   spawnInterval: 3
---- !u!1 &664098564
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 664098565}
-  m_Layer: 0
-  m_Name: GoalFlagPole
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &664098565
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664098564}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.14285713, y: 1, z: 0.25}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &673705250
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,9 +1738,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e97d54c5862cc50408ef7228c8853b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovingPlatform
-  speed: 2
+  speed: 4
   moveDistance: 10
-  changeDirectionTime: 2
+  changeDirectionTime: 1
 --- !u!54 &780512635
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2272,8 +2241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443fc5d83f32b5144b2d67a8e43f44d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CannonMovement
-  speed: 2
-  distance: 5
+  speed: 5
+  distance: 30
 --- !u!1 &1094563727
 GameObject:
   m_ObjectHideFlags: 0
@@ -3311,7 +3280,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -15.5, z: 0}
-  m_LocalScale: {x: 40, y: 2, z: 150}
+  m_LocalScale: {x: 60, y: 2, z: 200}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3341,7 +3310,7 @@ Transform:
   m_GameObject: {fileID: 1648523827}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.20645, y: 1.5, z: 32.73505}
+  m_LocalPosition: {x: 15.99, y: 1.5, z: 32.73505}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3828,7 +3797,7 @@ Transform:
   m_GameObject: {fileID: 1837527763}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.5721, z: 72.48}
+  m_LocalPosition: {x: 0, y: 2.5721, z: 70.98}
   m_LocalScale: {x: 10, y: 1.5534871, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4122,8 +4091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443fc5d83f32b5144b2d67a8e43f44d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CannonMovement
-  speed: 2
-  distance: 5
+  speed: 5
+  distance: 30
 --- !u!4 &1950312058
 Transform:
   m_ObjectHideFlags: 0
@@ -4453,6 +4422,5 @@ SceneRoots:
   - {fileID: 802703586}
   - {fileID: 1031285923}
   - {fileID: 1950312058}
-  - {fileID: 664098565}
   - {fileID: 1640945479}
   - {fileID: 1648523828}

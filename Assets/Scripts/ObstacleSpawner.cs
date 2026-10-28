@@ -4,7 +4,7 @@ public class ObstacleSpawner : MonoBehaviour
 {
     [Header("Spawner Settings")]
     [SerializeField] private GameObject obstaclePrefab;
-    [SerializeField] private float spawnInterval = 3f;
+    [SerializeField] private float spawnInterval = 1f;
 
     void Start()
     {

@@ -125,3 +125,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53f59a97e29aa504da88652be3871303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectMovement
+  speed: 7
+  destroyAfter: 15

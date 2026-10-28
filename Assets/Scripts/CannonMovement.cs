@@ -3,8 +3,8 @@ using UnityEngine;
 public class CannonMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    [SerializeField] private float speed = 3f;
-    [SerializeField] private float distance = 5f;
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private float distance = 30f;
     private float startZ;
     private bool movingForward = true;
 
