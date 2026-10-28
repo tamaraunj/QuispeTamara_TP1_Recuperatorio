@@ -5,16 +5,18 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpForce = 5f;
+    private float originalSpeed;
+    private bool powerUpActive = false;
     private float horizontal;
     private float vertical;
     private Rigidbody rb;
     private bool isGrounded;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        originalSpeed = speed;
     }
-
-
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal"); //flechas izq o der, A y D
@@ -38,6 +40,21 @@ public class PlayerMovement : MonoBehaviour
         {
             isGrounded = true;
         }
+    }
+    public void ActivatePowerUp()
+    {
+        if (powerUpActive)
+        {
+            return;
+        }
+
+        speed *= 2f;
+        powerUpActive = true;
+    }
+    public void ResetPowerUp()
+    {
+        speed = originalSpeed;
+        powerUpActive = false;
     }
     private void OnCollisionExit(Collision collision)
     {
